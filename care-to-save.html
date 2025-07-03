@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Care to Save - Cat Wellness Hub</title>
+  <style>
+    body {
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.6);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h1, h2 {
+      color: #4a148c;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="color:white; text-align:center;">Care to Save - Cat Wellness Hub</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Cat Foods</h2>
+      <ul>
+        <li><strong>Wet Food:</strong> Hydration support<br><span style="color:red;">Expiry: 2 days</span></li>
+        <li><strong>Kitten Formula:</strong> Growth & development<br><span style="color:red;">Expiry: 6–9 months</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Medicines</h2>
+      <ul>
+        <li><strong>Flea Drops:</strong> Monthly protection<br><span style="color:red;">Expiry: 2 years</span></li>
+        <li><strong>Vitamin Syrup:</strong> Boosts immunity<br><span style="color:red;">Expiry: 1 year</span></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Seasonal Tips</h2>
+      <ul>
+        <li><strong>Summer:</strong> Hydrate and shade<br>Reason: Heat stress</li>
+        <li><strong>Winter:</strong> Provide blankets<br>Reason: Cold</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Care to Save. All rights reserved.</p>
+  </footer>
+</body>
+</html>
